@@ -1,0 +1,20 @@
+{
+    "name": "slj/resolve_git_conflict_demo",
+    "autoload": {
+        "psr-4": {
+            "Slj\\ResolveGitConflitDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leejun",
+            "email": "lee-jun_seng@mywave.biz"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.2"
+    },
+    "scripts": {
+        "test": "phpunit tests"
+    }
+}
